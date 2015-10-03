@@ -13,6 +13,7 @@
 		A7F3878B1BBEEE510009FDA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F387891BBEEE510009FDA0 /* Main.storyboard */; };
 		A7F3878D1BBEEE510009FDA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F3878C1BBEEE510009FDA0 /* Assets.xcassets */; };
 		A7F387901BBEEE510009FDA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F3878E1BBEEE510009FDA0 /* LaunchScreen.storyboard */; };
+		A7F3879D1BBF08C30009FDA0 /* MultiThreadFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F3879C1BBF08C30009FDA0 /* MultiThreadFileWriter.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A7F3878C1BBEEE510009FDA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F3878F1BBEEE510009FDA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F387911BBEEE510009FDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F3879B1BBF08C30009FDA0 /* MultiThreadFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadFileWriter.h; sourceTree = "<group>"; };
+		A7F3879C1BBF08C30009FDA0 /* MultiThreadFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadFileWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A7F387841BBEEE510009FDA0 /* AppDelegate.m */,
 				A7F387861BBEEE510009FDA0 /* ViewController.h */,
 				A7F387871BBEEE510009FDA0 /* ViewController.m */,
+				A7F3879B1BBF08C30009FDA0 /* MultiThreadFileWriter.h */,
+				A7F3879C1BBF08C30009FDA0 /* MultiThreadFileWriter.m */,
 				A7F387891BBEEE510009FDA0 /* Main.storyboard */,
 				A7F3878C1BBEEE510009FDA0 /* Assets.xcassets */,
 				A7F3878E1BBEEE510009FDA0 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				A7F387881BBEEE510009FDA0 /* ViewController.m in Sources */,
 				A7F387851BBEEE510009FDA0 /* AppDelegate.m in Sources */,
+				A7F3879D1BBF08C30009FDA0 /* MultiThreadFileWriter.m in Sources */,
 				A7F387821BBEEE510009FDA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
